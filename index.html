@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Suma</h1>
+
+    <input type="number" id="calculo1" placeholder="Escribe un número">
+    <input type="number" id="calculo2" placeholder="Escribe un número">
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+    <p id="result"></p>
+
+    <h1>Resta</h1>
+
+    <input type="number" id="calculo3" placeholder="Escribe un número">
+    <input type="number" id="calculo4" placeholder="Escribe un número">
+    <button id="btnCalcular2">Calcular</button>
+    <p id="result2"></p>
+
+    <h1>Multiplicación</h1>
+
+    <form action="submit" id="form">
+        <input type="number" id="calculo5" placeholder="Escribe un número">
+        <input type="number" id="calculo6" placeholder="Escribe un número">
+        <button id="btnCalcular3">Calcular</button>
+        <p id="result3"></p>
+    </form>
+
+    <h1>División</h1>
+
+    <form action="submit" id="form">
+        <input type="number" id="calculo7" placeholder="Escribe un número">
+        <input type="number" id="calculo8" placeholder="Escribe un número">
+        <!--como form busca el último button, se le asigna a este type button para que no tome por defecto submit y no recargue la página-->
+        <button type="button" id="btnCalcular4">Calcular</button>
+        <p id="result4"></p>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
